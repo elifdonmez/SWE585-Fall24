@@ -711,8 +711,9 @@ GameObject:
   - component: {fileID: 801372689}
   - component: {fileID: 801372688}
   - component: {fileID: 801372687}
+  - component: {fileID: 801372692}
   m_Layer: 0
-  m_Name: Sphere 1
+  m_Name: Sphere with rigidbody force
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -805,13 +806,28 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801372686}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.5, y: 18.6, z: 10.9}
+  m_LocalPosition: {x: 11.05, y: 19.01, z: 10.54}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &801372692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801372686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e94e2d0e0674b348e6028db9514db0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 916638544}
+  forceDirection: {x: -2, y: 0, z: 3}
+  forceAmount: 1
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
