@@ -1,0 +1,4 @@
+repository "TermProject2/TermProject2@18968109170640@cloud"
+  path "/"
+    br "/main"
+    co "/main"
